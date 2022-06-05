@@ -37,7 +37,7 @@ provide('updateTask', updateTask)
 
 <template>
   <PageLayout>
-    <TodoForm @updateTodoList="updateTodoList" />
+    <TodoForm />
     <TodoList :todoList="store.todoList" />
   </PageLayout>
 </template>
